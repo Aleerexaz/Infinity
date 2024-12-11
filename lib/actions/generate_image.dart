@@ -13,7 +13,7 @@ class ImageController extends GetxController {
 
   // OpenAI API Key (Replace with your actual API key)
   final openAiApiKey =
-      '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'; // Replace this with your OpenAI API Key
+      'YOUR API KEY'; // Replace this with your OpenAI API Key
 
   Future<void> createImage() async {
     if (textC.text.trim().isEmpty) {
